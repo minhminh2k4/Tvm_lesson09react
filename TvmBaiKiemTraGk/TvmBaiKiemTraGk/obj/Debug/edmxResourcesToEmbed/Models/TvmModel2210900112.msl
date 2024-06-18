@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Tvmk22CNT2Lesson07DbModelStoreContainer" CdmEntityContainer="Tvmk22CNT2Lesson07DbEntities">
+    <EntitySetMapping Name="tvmKhoa">
+      <EntityTypeMapping TypeName="Tvmk22CNT2Lesson07DbModel.tvmKhoa">
+        <MappingFragment StoreEntitySet="tvmKhoa">
+          <ScalarProperty Name="TvmMaKH" ColumnName="TvmMaKH" />
+          <ScalarProperty Name="TvmTenKH" ColumnName="TvmTenKH" />
+          <ScalarProperty Name="TvmTrangThai" ColumnName="TvmTrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tvmSinhVien">
+      <EntityTypeMapping TypeName="Tvmk22CNT2Lesson07DbModel.tvmSinhVien">
+        <MappingFragment StoreEntitySet="tvmSinhVien">
+          <ScalarProperty Name="TvmMaSV" ColumnName="TvmMaSV" />
+          <ScalarProperty Name="TvmHoSV" ColumnName="TvmHoSV" />
+          <ScalarProperty Name="TvmTenSV" ColumnName="TvmTenSV" />
+          <ScalarProperty Name="TvmNgaySinh" ColumnName="TvmNgaySinh" />
+          <ScalarProperty Name="TvmPhai" ColumnName="TvmPhai" />
+          <ScalarProperty Name="TvmPhone" ColumnName="TvmPhone" />
+          <ScalarProperty Name="TvmEmail" ColumnName="TvmEmail" />
+          <ScalarProperty Name="TvmMaKH" ColumnName="TvmMaKH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
